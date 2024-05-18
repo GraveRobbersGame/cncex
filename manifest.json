@@ -1,0 +1,15 @@
+{
+    "name": "Cast and Crew Expansion",
+    "short": "Cast and Crew Expansion",
+    "year": "2024",
+    "sigil": "cncex",
+    "type": "official",
+    "description" : "The Cast and Crew Expansion features cards designed by our Kickstarter backers.",
+    
+    "list": "list.json",
+    "cover": "cover.jpeg",
+    "art": "/art/",
+    "thumb": "/thumb/",
+    "link" : "https://shop.arghacademy.org/products/gros-cast-crew-expansion",
+    "link_text": "Get it at the ARGH Shop"
+}

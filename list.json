@@ -1,0 +1,765 @@
+[
+    {
+        "type": "character",
+        "name": "Science Advisor",
+        "traits": [
+            "Crew",
+            "Male",
+            "Old"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Hey dad! Is this thing possible?\"\n\"Nooo...\"",
+        "abilities": "Crew — Cannot use Props or be targeted by attacks.\n\nPay 3 Popcorn — Stop a 'Supernatural', 'Alien', or 'Monster' attack made against your Movie.",
+        "title": "Science",
+        "number": "000",
+        "mechanic": "Robin Bailes",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "000.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Papa Red Beard",
+        "traits": [
+            "Large",
+            "Male",
+            "Family"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"If ya mess with the wee ones, yer messin' with ME, lass!\"",
+        "abilities": "Defense = 3 if there are any 'Animal' or 'Young' Characters in the same Movie. Defense = 5 if there are both.",
+        "title": "Viking",
+        "number": "002",
+        "mechanic": "Trevor Douglas",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "002.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Uncle Andrew",
+        "traits": [
+            "Male",
+            "Family",
+            "Smart"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"Y'see kids? That's why you're not supposed to act like a dumbass.\"",
+        "abilities": "Pay 2 Popcorn — kill any 'Dumb' Character in play to prevent Uncle Andrew, or any 'Young' Character in your Movie from being killed.",
+        "title": "Uncle",
+        "number": "034-1",
+        "mechanic": "Andrew Jensen",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "034.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "Gothic Loch",
+        "traits": [
+            "Aquatic"
+        ],
+        "stat": "2",
+        "popcorn": "3",
+        "bucket": true,
+        "quote": "\"Ever seen Nessie?\"  \"Only after a few pints.\"",
+        "abilities": "Any 'Dinosaur' or 'Dragon' attacks you make against other Movies are at +5 Attack.\n\nCan combine with any Location that mentions \"Castle\" or \"Moor\".",
+        "title": "Loch",
+        "number": "034-2",
+        "mechanic": "Andrew Jensen",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "034-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "prop",
+        "name": "Ancient Curio",
+        "traits": [
+            "Treasure",
+            "Magic"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Well, that's curious...\" \"Close! It's a curio.\"",
+        "abilities": "'Supernatural' attacks against your Movie are at -5 Attack.\n\n'Treasure' — Defense counts double when calculating final scores.",
+        "title": "Forgotten",
+        "number": "034-3",
+        "mechanic": "Andrew Jensen",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "034-3.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Trading Card Game Collector",
+        "traits": [
+            "Special"
+        ],
+        "stat": "1",
+        "popcorn": "1",
+        "bucket": false,
+        "quote": "\"Gotta collect'em all!\"",
+        "abilities": "When played, their Director must choose if they are 'Young' or 'Old', and 'Male' or 'Female'. The hobby lives in us all.\n\nGains +1 Defense for every card attached to them.",
+        "title": "Hoard",
+        "number": "057-1",
+        "mechanic": "Christian Kretschmer",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "057-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "prop",
+        "name": "Kleopatra",
+        "traits": [
+            "Animal",
+            "Treasure"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"That's a pretty kitty.\"",
+        "abilities": "All 'Animals' in your Movie get +1 Defense for as long as Kleopatra remains in play.\n\nYou may discard Kleopatra to take one 'Animal' out of the Graveyard and put it in your hand.",
+        "title": "Kitty",
+        "number": "057-2",
+        "mechanic": "Christian Kretschmer",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "057-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "The Harbinger",
+        "traits": [
+            "Male",
+            "Old"
+        ],
+        "stat": "3",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"You stupid kids! Stay away! Ain't nothin' up there for y'all but DEATH!\"",
+        "abilities": "When the Harbinger is cast in your Movie, draw cards from your Deck until you find a Creature. Place it into your hand, replace the rest of the cards and shuffle.",
+        "title": "Harbinger",
+        "number": "073",
+        "mechanic": "Robert Wallace",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "073.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Sorceress Loreyna",
+        "traits": [
+            "Female",
+            "Smart"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"When a woman stays young and beautiful forever, the world is hers!\"",
+        "abilities": "All 'Female' Characters in other Movies have -1 Defense.",
+        "title": "Vain",
+        "number": "077-1",
+        "mechanic": "Steve Caruso",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "077-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "prop",
+        "name": "MMORPG",
+        "traits": [
+            "Cyberspace",
+            "Electronic"
+        ],
+        "stat": "0",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"Hey! Did you hear about this new game? I.. can't... stop... playing... Try it!\"",
+        "abilities": "Knock Out the Character MMORPG is attached to. They don't wake up when their Director fills up at the beginning of their turn.",
+        "title": "Game",
+        "number": "077-2",
+        "mechanic": "Steve Caruso",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "077-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Witchy Aunt",
+        "traits": [
+            "Female",
+            "Old",
+            "Smart"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"Whacha need dear? Love potion? Curse? Charm? I just stocked up!\"",
+        "abilities": "2 Popcorn — Add or remove one of the following Traits from a Character in your Movie until the end of the turn: 'Old', 'Young', 'Male', 'Female', 'Smart', or 'Dumb'.",
+        "title": "Hocus-Pocus",
+        "number": "101",
+        "mechanic": "Erica Schmitt",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "101.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Mostly Useless Extras",
+        "traits": [
+            "Crew"
+        ],
+        "stat": "-3",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Cut! CUT! Can extra #43 PLEASE stop picking their nose! ... Take 24!\"",
+        "abilities": "May be played into an Opponent's Movie.\n\n'Crew' — May not use Props or be targeted by attacks.",
+        "title": "Useless",
+        "number": "102-1",
+        "mechanic": "Marko Hämäläinen",
+        "balance": {
+            "bonus": 2,
+            "disad": 2
+        },
+        "art": "102-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "prop",
+        "name": "Trusty Fire Extinguisher",
+        "traits": [
+            "Weapon"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "*FRANG!* *WOOOOOSH!*",
+        "abilities": "Discard from play to give your Movie +5 Defense for the duration of the current attack, +10 if against an 'Aquatic' attack.",
+        "title": "Fog",
+        "number": "102-2",
+        "mechanic": "Marko Hämäläinen",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "102-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "The Boy",
+        "traits": [
+            "Young",
+            "Male",
+            "Family",
+            "Virgin"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"I hid it around here somewhere!\"",
+        "abilities": "Pay 2 Popcorn on your turn — Reveal the top card of you Deck. If it's a Prop (and it doesn't break any rules) you may play it on The Boy for free. If it's not, discard it.",
+        "title": "Boy",
+        "number": "105-1",
+        "mechanic": "Brian Gill",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "105-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "Abandoned Video Rental Store",
+        "traits": [
+            "Building",
+            "Shop"
+        ],
+        "stat": "2",
+        "popcorn": "3",
+        "bucket": true,
+        "quote": "\"Hey, I wonder if they left anything good in the stockroom...\"",
+        "abilities": "When this card is cast in your Movie, draw three cards face-down and attach them to the Store. When the Store leaves play, put those cards into your hand. 'Psycho' attacks are at half strength at the Store.",
+        "title": "Blockbuster",
+        "number": "105-2",
+        "mechanic": "Brian Gill",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "105-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Roller Derby Grrrl",
+        "traits": [
+            "Female"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"Outta my way, rink rash trash!\" *WHAM!*",
+        "abilities": "2 Popcorn on your turn — Knock Out target Character and Roller Derby Grrrl.",
+        "title": "Roller",
+        "number": "112-1",
+        "mechanic": "Andrea Bieri-McCool",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "112-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "prop",
+        "name": "Roller Skates",
+        "traits": [
+            "Clothing"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"Hey guys! I'm on a roll!\"",
+        "abilities": "Pay 1 Popcorn when attacked — +1 to the Skates' Defense until the end of the attack.",
+        "title": "Skate",
+        "number": "112-2",
+        "mechanic": "Steve Caruso",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "112-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Horror Celebrity Cameo",
+        "traits": [
+            "Crew",
+            "Old",
+            "Treasure"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"What the heck is he doing in this flick??\" \"Publicity.\"",
+        "abilities": "When the Celebrity is cast in your Movie, attach them to a Character. If either the Celebrity or the Character dies, the other is discarded.\n\n'Crew' — Cannot be targeted by attacks or use Props.\n'Treasure' — Defense is double when calculating the final score.",
+        "title": "Celebrity",
+        "number": "121-1",
+        "mechanic": "Prof. McGlothlin",
+        "balance": {
+            "bonus": 2,
+            "disad": 1
+        },
+        "art": "121-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "The Ghost Show!",
+        "traits": [
+            "Building",
+            "Event"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Welcome ghouls and gents to the show! The MORGUE, the merrier!\"",
+        "abilities": "'Events' can Combine with an existing Location that shares a Trait other than 'Event'; There are so many guests in costume that when an attack succeeds against the Show, after the Victim is chosen, take the attacker, the Show, and the Victim, mix them up face-down and pick two. If the Victim and/or the Show are not among the chosen, they remain in play unscathed.",
+        "title": "Surprise",
+        "number": "121-2",
+        "mechanic": "Prof. McGlothlin",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "121-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Skippy's Stunt Double",
+        "traits": [
+            "Animal"
+        ],
+        "stat": "1",
+        "popcorn": "1",
+        "bucket": false,
+        "quote": "\"Well we can't set SKIPPY on fire, since that'd just be cruel...\"",
+        "abilities": "If another \"Skippy\" lands in the Graveyard, you may kill the Stunt Double to return that \"Skippy\" to their Owner's hand along with a Prop from their Graveyard. (\"Fetch, boy!\")\n\n'Animal' — May only use 'Clothing' Props.",
+        "title": "Saved",
+        "number": "130-1",
+        "mechanic": "Jesse Barcenas",
+        "balance": {
+            "bonus": 2,
+            "disad": 1
+        },
+        "art": "130-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "prop",
+        "name": "Cauldron of Greed",
+        "traits": [
+            "Drink"
+        ],
+        "stat": "0",
+        "popcorn": "1",
+        "bucket": true,
+        "quote": "\"Is it 'Bubble, bubble, toil and trouble,' or 'Bubble, bubble, toil, AND trouble'?\"",
+        "abilities": "Discard from play — Draw 3 cards.",
+        "title": "Bubbling",
+        "number": "130-2",
+        "mechanic": "Jesse Barcenas",
+        "balance": {
+            "bonus": 2,
+            "disad": 1
+        },
+        "art": "130-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Genre Savvy Girl",
+        "traits": [
+            "Female",
+            "Smart",
+            "Young"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Guys, hold up! I've seen this in a movie before...\"",
+        "abilities": "When the Girl is cast in your Movie, look at the top 6 cards of your Deck. Replace them each back on the top and/or on the bottom of the deck in any order.",
+        "title": "Odd",
+        "number": "156",
+        "mechanic": "Josh Morse",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "156.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Papa Wolf",
+        "traits": [
+            "Male",
+            "Family",
+            "Large"
+        ],
+        "stat": "1",
+        "popcorn": "1",
+        "bucket": false,
+        "quote": "\"NOBODY messes with MY kid!\"",
+        "abilities": "If there is a 'Young' Character in the same Movie, Defense = 4. If a \"Mom\" or \"Mama\" or \"Mother\" is present, all 'Young' Characters in their Movie cannot be targeted by Creature attacks.",
+        "title": "Berzerk",
+        "number": "164-1",
+        "mechanic": "Ross Lee Richard",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "164-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Mama Bear",
+        "traits": [
+            "Female",
+            "Family"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Mommy, am I gonna die?\"\n\"Oh, no, baby, no. THEY are.\"",
+        "abilities": "If there is a 'Young' Character in the same Movie, Mama's Defense = 4 and she gains +1 for every 'Gun' she has.",
+        "title": "Kid",
+        "number": "164-2",
+        "mechanic": "Steve Caruso",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "164-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Local Guide",
+        "traits": [
+            "Crew",
+            "Neighborhood",
+            "Male"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"Don't know why you'd want to go there. Been boarded up for years... Shooting a movie you say?\"",
+        "abilities": "Crew — May not use Props or be targed by attacks.\n\nWhen Local Guide enters play, you may play any Location in your hand or from your Graveyard into your Movie for free.",
+        "title": "Yokel",
+        "number": "167-1",
+        "mechanic": "Andrew Funke",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "167-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "Virtual Theater",
+        "traits": [
+            "Cyberspace"
+        ],
+        "stat": "2",
+        "popcorn": "3",
+        "bucket": true,
+        "quote": "\"A re-run of a long-forgotten monster movie? Even on a virtual screen: IT STINKS!\"",
+        "abilities": "When the Virtual Theater enters play, you may uncover a Creature from any Graveyard and attack with it immediately for free. Afterwards, the Creature is removed from the game. Defense = -2 against attacks with any mention of \"Science\" on them.",
+        "title": "Second",
+        "number": "167-2",
+        "mechanic": "Andrew Funke",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "167-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Latent Killer",
+        "traits": [
+            "Smart",
+            "Duel"
+        ],
+        "stat": "2",
+        "popcorn": "3",
+        "bucket": false,
+        "quote": "\"Yeah, he's a really nice guy. Quiet. Why?\"",
+        "abilities": "'Duel' — May initiate Duel attacks.\n\n'Knife' Props' Defense on the Killer is doubled in Duels.",
+        "title": "Knife",
+        "number": "168-1",
+        "mechanic": "Sandi Robbins",
+        "balance": {
+            "bonus": 3,
+            "disad": 0
+        },
+        "art": "168-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "Data Center in the Middle of Nowhere",
+        "traits": [
+            "Building",
+            "Scientific",
+            "Cyberspace"
+        ],
+        "stat": "4",
+        "popcorn": "3",
+        "bucket": true,
+        "quote": "\"Streamflix's servers apparently live out in the boonies of Iowa...\"",
+        "abilities": "On your turn — You may attach a card from your hand face-down to the Data Center. If there is a card there already, you may freely swap it with another card from your hand instead. If the Center leaves play, so does the card.",
+        "title": "Streaming",
+        "number": "168-2",
+        "mechanic": "Sandi Robbins",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "168-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "prop",
+        "name": "Supernatural BFG",
+        "traits": [
+            "Gun",
+            "Weapon"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"Silver, iron filings, holy water... da works!\"",
+        "abilities": "Tip during an attack — Defense = 7 against 'Supernatural', 'Vampires', 'Monsters', and 'Zombies' until the end of the attack.",
+        "title": "Red",
+        "number": "168-3",
+        "mechanic": "Sandi Robbins",
+        "balance": {
+            "bonus": 2,
+            "disad": 0
+        },
+        "art": "168-3.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Executive Producer Andrew",
+        "traits": [
+            "Male",
+            "Crew"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"I don't care how much money I throw away! It has to be PERFECT!\"",
+        "abilities": "Once per turn, on your turn — You may discard a card and draw a card.\n\n'Crew' — Cannot be targeted by attacks or use Props.",
+        "title": "Obsessed",
+        "number": "196-1",
+        "mechanic": "Andrew Deller",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "196-1.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "character",
+        "name": "Friendly Succubus Pauline",
+        "traits": [
+            "Female"
+        ],
+        "stat": "2",
+        "popcorn": "1",
+        "bucket": false,
+        "quote": "\"Oh that's a BIG knife... what ever shall I do?\"",
+        "abilities": "Every time a 'Male' Character dies, the Succubus gets +1 Defense.",
+        "title": "Dreaming",
+        "number": "196-2",
+        "mechanic": "Andrew Deller",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "196-2.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "Suburbs on Halloween",
+        "traits": [
+            "Neighborhood",
+            "Event"
+        ],
+        "stat": "1",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Trick or treat! — GAK! ARGH! GURGLE!\"",
+        "abilities": "'Events' can Combine with an existing Location that shares a Trait other than 'Event'.\n\nWhen tipped, the Suburbs gives 1 Popcorn for every 'Young' Character in your Movie.\n'Psycho', 'Monster', and 'Supernatural' attacks always succeed here.",
+        "title": "Trick",
+        "number": "196-3",
+        "mechanic": "Andrew Deller",
+        "balance": {
+            "bonus": 2,
+            "disad": 2
+        },
+        "art": "196-3.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "Goth Club",
+        "traits": [
+            "Building",
+            "Underground"
+        ],
+        "stat": "4",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Where you can both 'Get Down With the Sickness' and find 'The Cure'.\"",
+        "abilities": "'Young' or 'College', NON-'Virgin' Characters get +1 Defense at the Club.\n\nDefense = -5 against 'Vampire' attacks.",
+        "title": "Goth",
+        "number": "196-4",
+        "mechanic": "Andrew Deller",
+        "balance": {
+            "bonus": 1,
+            "disad": 1
+        },
+        "art": "196-4.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "location",
+        "name": "Lucky Lake",
+        "traits": [
+            "Aquatic"
+        ],
+        "stat": "2",
+        "popcorn": "2",
+        "bucket": true,
+        "quote": "\"Every year they burn an effigy on its banks. And if we're lucky, the lake doesn't catch fire.\"",
+        "abilities": "While at the Lake, you may burn (discard) one of your Props in play to add double its Total Defense to your Movie until the end of an attack.",
+        "title": "Offering",
+        "number": "196-5",
+        "mechanic": "Andrew Deller",
+        "balance": {
+            "bonus": 1,
+            "disad": 0
+        },
+        "art": "196-5.jpeg",
+        "artist": "Steve Caruso"
+    },
+    {
+        "type": "special-effect",
+        "name": "Cat in the Closet",
+        "traits": [],
+        "stat": "",
+        "popcorn": "2",
+        "bucket": false,
+        "quote": "\"What's Black and White with the blood of his enemies all over? That's Halloween!\"",
+        "abilities": "Stop any card as it is being played. It is discarded. This cannot stop a Plot Twist or Roll the Credits.",
+        "title": "Surprise",
+        "number": "196-6",
+        "mechanic": "Steve Tassie",
+        "art": "196-6.jpeg",
+        "artist": "Steve Caruso"
+    }
+]
